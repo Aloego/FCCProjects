@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+#header {
+    background-color: #be3144;
+    color: #fff;
+    padding: 15px 0px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    
+}
+
+#nav-list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.nav-item {
+    margin: 0 10px;
+    padding: 10px;
+}   
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+#welcome {
+    background-color: #292a2e;
+    height: 100vh;
+    color: #fff;
+    /* display: grid; */
+}
+
+.welcome {
+    text-align: center;
+    transform: translate(0px, 250px);
+
+}
+
+.welcome h1 {
+    font-size: 3.75em;  
+}
+
+.welcome p {
+    font-size: 1.88em;
+    color: #be3144;
+}
+
+
+#projects {
+
+    padding: 120px 0 100px;
+    background-color: #44567c;
+    
+}
+
+.project-tile {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    justify-content: center;
+    
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 450px;
+    margin: auto;   
+    color: #fff;   
+}
+
+.project-title {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.project-item {
+    margin: 0 10px 30px;
+    width: 400px;
+    height: 550px;
+    background-color: #303942;
+    
+}
+
+.project-item img {
+    display: block;
+    width: 100%;
+}
+
+.project-item p {
+    color: #fff;
+    text-align: center;
+    padding: 30px 0 0;
+    font-weight: 500;
+    font-size: 1.5em;   
+}
+
+ .btn {
+    display: block;
+    width: 150px;
+    height: 60px; 
+    margin: 30px auto;
+    font-weight: 700;
+    font-size: 1.2em; 
+    text-align: center;  
+    background-color: #303942;
+    color: #fff;
+
+    
+}
+
+.btn:hover {
+   background-color: #292a2e ;
+}
+
+
+.btn i {
+    padding: 0 5px;
+    font-size: 1.2em;
+}
+
+#contact {
+    padding: 100px 0 100px;
+    background-color: #303942;
+    color: #fff;
+}
+
+.headline {
+    font-size: 4em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.subtitle {
+    font-size: 1.4em;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+
+.contact-links {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+}
+
+

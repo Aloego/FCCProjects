@@ -344,19 +344,17 @@ footer hr {
  /*Responsive design for mobile devices below 475px */
 @media (max-width: 475px) {
 
-    #nav-bar #nav-list {
-        display: none;
+    #nav-bar #nav-list{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      justify-content: center;
+      padding: 10px 20px;
+      margin: 0 35px 0 0;
     }
-
-    #nav-bar {
-        display: grid;
-        grid-template-columns: auto auto;
-        justify-content: space-between;
-        padding: 10px 20px;
-    }
+    
 
     .nav-item {
-        padding: 0;
+        padding: 15px;
         margin: 0;
     }
 
